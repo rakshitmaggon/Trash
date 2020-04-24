@@ -84,7 +84,7 @@ body, html{
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll; }   */
       .pimg1 , .pimg2 , .pimg3{
-        object-fit: fill;
+        object-fit: scale-down;
       }
     .ptext, .ptext .border{
       font-size:80%;
