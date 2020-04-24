@@ -80,9 +80,12 @@ body, html{
   
 
   @media(max-width:765px){
-    /*
+    /* this is if u want to scroll
     .pimg1, .pimg2, .pimg3{
       background-attachment:scroll; }   */
+      .pimg1 , .pimg2 , .pimg3{
+        object-fit: cover;
+      }
     .ptext, .ptext .border{
       font-size:80%;
     }               }
